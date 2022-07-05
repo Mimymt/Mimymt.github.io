@@ -1,0 +1,71 @@
+/* common */
+* {
+  font-family: 'Bodoni 72 Oldstyle','TsukuBRdGothic-Regular',sans-serif;
+}
+
+h1,
+h2,
+p {
+  margin:0;
+}
+
+/* header */
+header {
+ background: url(../img/flower1.jpeg) center / cover;
+ background-blend-mode: soft-light;
+ margin: 0;
+ font-family: 'Bodoni 72 Oldstyle',sans-serif;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 120px;
+  font-size: 48px;
+}
+
+header p {
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+header h1, p {
+  color: #402717;
+}
+/* main */
+
+main .container {
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+main h1 {
+  font-size: 32px;
+  text-align: center;
+  padding: 60px 0;
+}
+
+main h2 {
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+main p {
+  font-size: 14px;
+  line-height: 1.8;
+  margin-top: 16px;
+}
+
+main section + section {
+  margin-top: 60px;
+}
+/* footer */
+
+footer {
+  text-align: center;
+  color: #aaa;
+  padding-top: 60px;
+}
